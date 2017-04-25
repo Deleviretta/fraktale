@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 32M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: fraktaleproba5
+  name: fraktaleproba5
+  path: .
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 128M

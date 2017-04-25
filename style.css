@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+body{
+    /* Background pattern from subtlepatterns.com */
+    background-image: url("img/congruent_pentagon.png");
+}
+
+main{
+    margin-right: auto;
+    margin-left: auto;
+    width:1000px;
+}
+
+header{
+    font-family: 'Economica', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+nav{
+    margin-top: 20px;
+    background-color: #6e6778;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.option{
+    float:left;
+    padding: 10px;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    border-right: #ff5854 double 2px;
+}
+.option:hover{
+    background-color: #4e4958;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+section{
+    margin-top: 20px;
+    background-color: slategrey;
+    color: white;
+    border-radius: 10px;
+}
+
+#sectionL{
+    float:left;
+    width: 178px;
+    padding: 10px;
+    border-right: #8027ba dotted 2px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+#sectionR{
+    float:left;
+    width: 760px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#mainContent{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: azure;
+    overflow: hidden;
+}
+
+aside{
+    float: left;
+    width: 178px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #4e4958;
+    font-weight: 700;
+}
+
+.option2{
+    padding: 10px;
+}
+
+.option2:hover{
+    background-color: #c1cfcf;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #ff5854;
+}
+
+#content{
+    float: left;
+    width: 760px;
+    padding: 10px;
+    border-left: #8027ba dotted 2px;
+}
+
+footer{
+    clear:both;
+    margin-top: 20px;
+    background-color: #6e6778;
+    border-radius: 10px;
+    padding:10px;
+    color: white;
+}
+
+#canvas{
+    background-color: #333333;
+    margin-left: 45px;
+}
+
+input[type=text]{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    background-color: beige;
+}
+
+.formTitle{
+    color: #ba0005;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+
+}
+
+input[type=button]{
+    padding: 15px;
+    margin-right: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.funkcja{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+#filmik{
+    margin-left: 100px;
+}
+
+.gif{
+    margin-left: 150px;
+}
+
+
+
+
+
+

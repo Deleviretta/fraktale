@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraktale</title>
+    <script src="fraktale.js" type="text/javascript"></script>
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Economica:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+<body onload="glowna()">
+    <main>
+        <header onclick="glowna()">
+            Fraktale - funkcje malowane
+        </header>
+        <nav>
+            <div class="option" onclick="printingInfo()">Ogólnie o fraktalach</div>
+            <div class="option" onclick="printingForm()" >Paproć Barnsleya</div>
+            <div class="option" onclick="printingDywan()">Dywan Sierpińskiego</div>
+            <div class="option" onclick="printingDokumentacja()">Dokumentacja</div>
+            <div class="option" ><a href="http://fraktaleproba5.eu-gb.mybluemix.net/">Bluemix<a></div>
+            <div style="clear:both;"></div>
+        </nav>
+        <section>
+            <div id="sectionL">
+                <img src="img/512px-Koch_Snowflake_7th_iteration.svg.png" height="178" width="178" alt="Siódma iteracja krzywej Kocha" />
+            </div>
+            <div id="sectionR">
+                <h1>Kilka słów o fraktalach</h1>
+                <p>Fraktal (łac. fractus – złamany) - potocznie obiekt samopodobny, "nieskończenie subtelny". Matematycy
+                określają fraktal jako zbiór, który posiada takie cechy jak np.: nietrywialna struktura, względnie prosta
+                definicja rekurencyjna. Przykłady fraktali można spotkać w przyrodzie są to: płatki śniegu, kwiat kalafiora,
+                błyskawice.</p>
+                <p>Na obrazku obok znajduje się siódma iteracja krzywej Kocha - fraktalu przypominającego płatek śniegu.</p>
+            </div>
+            <div style="clear:both;"></div>
+        </section>
+        <div id="mainContent">
+            <aside>
+                <div class="option2" onclick="printingInfo()">Ogólnie o fraktalach</div>
+                <div class="option2" onclick="printingForm()">Paproć Barnsleya</div>
+                <div class="option2" onclick="printingDywan()">Dywan Sierpińskiego</div>
+                <div class="option2" onclick="printingDokumentacja()">Dokumentacja</div>
+                <div class="option2" ><a href="http://fraktaleproba5.eu-gb.mybluemix.net/">Bluemix<a></div>
+                <div style="clear:both;"></div>
+            </aside>
+            <div id="content"></div>
+        </div>
+        <footer>
+            Natalia Derwecka, Techniki Internetowe 2016, Wszelkie prawa zastrzeżone &copy;
+        </footer>
+    </main>
+</body>
+</html>
